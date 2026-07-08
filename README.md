@@ -1,16 +1,16 @@
 # Validating a Mental Health Measurement Tool at Scale
 
-**What this project shows**: how to take a measurement instrument used on thousands of people, and rigorously test whether it actually measures what it claims to — across different populations — using the same statistical toolkit companies use to validate surveys, product feedback scales, and behavioral scoring models.
+**What this project shows**: how to take a measurement instrument used on thousands of people, and rigorously test whether it actually measures what it claims to, across different populations — using the same statistical toolkit companies use to validate surveys, product feedback scales, and behavioral scoring models.
 
-The dataset here is a psychological questionnaire (the DASS-42, a widely used clinical screening tool for depression, anxiety, and stress). But the underlying problem is a general one: **any organization that measures people at scale — through surveys, NPS scores, engagement indices, risk scores, or behavioral segments — needs to know whether that measurement is reliable, whether it means the same thing for every group of people, and whether it can actually predict the outcome it's meant to predict.** This project answers exactly that, end to end, on real data from ~40,000 respondents.
+The dataset here is a psychological questionnaire (the DASS-42, a widely used clinical screening tool for depression, anxiety, and stress). But the underlying problem is a general one: **any organization that measures people at scale, through surveys, NPS scores, engagement indices, risk scores, or behavioral segments — needs to know whether that measurement is reliable, whether it means the same thing for every group of people, and whether it can actually predict the outcome it's meant to predict.** This project answers exactly that, end to end, on real data from ~40,000 respondents.
 
 ## Why this matters in an industry context
 
 | What I did here | Where this shows up in industry |
 |---|---|
-| Tested whether a questionnaire's structure holds across two very different age groups | Checking whether a customer satisfaction survey, engagement score, or risk model means the same thing across markets, age groups, or customer segments — a common failure point in global research programs |
-| Measured internal consistency and item quality (Cronbach's alpha, item-total correlation) | Auditing survey/scale quality before launch — catching redundant or noisy questions before they go into a dashboard leadership relies on |
-| Built a classifier to predict a severity outcome from behavioral and demographic features | The same pipeline used for churn prediction, risk scoring, or customer segmentation — train/test split, feature importance, and honest reporting of where the model struggles |
+| Tested whether a questionnaire's structure holds across two very different age groups | Checking whether a customer satisfaction survey, engagement score, or risk model means the same thing across markets, age groups, or customer segment, a common failure point in global research programs |
+| Measured internal consistency and item quality (Cronbach's alpha, item-total correlation) | Auditing survey/scale quality before launch, catching redundant or noisy questions before they go into a dashboard leadership relies on |
+| Built a classifier to predict a severity outcome from behavioral and demographic features | The same pipeline used for churn prediction, risk scoring, or customer segmentation, train/test split, feature importance, and honest reporting of where the model struggles |
 | Reported model limitations explicitly instead of overselling accuracy | The habit that separates a report that gets trusted by decision-makers from one that gets flagged after the fact |
 
 ## What's inside
@@ -83,7 +83,7 @@ reported in `docs/report.pdf`.
 
 - The older-adult subsample is comparatively small (N=253), limiting statistical power for the EFA/CFA comparison
 - Likert-type items were treated as interval-level data, consistent with common practice in DASS-42 validation literature but a simplifying assumption worth flagging
-- The RF classifier's moderate performance suggests room for improvement via feature engineering, hyperparameter tuning, or alternative models — noted explicitly as a direction for future work rather than a limitation glossed over
+- The RF classifier's moderate performance suggests room for improvement via feature engineering, hyperparameter tuning, or alternative models, noted explicitly as a direction for future work rather than a limitation glossed over
 
 ## Author
 
