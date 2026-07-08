@@ -49,7 +49,7 @@ Does the standard three-factor structure of the DASS-42 replicate across differe
 - Both cohorts show a marginal-to-sufficient model fit and high internal consistency, but the older-adult EFA revealed item cross-loadings between the Anxiety and Stress subscales, suggesting the standard three-factor model may not generalize cleanly to elderly populations.
 - The Random Forest classifier reached 0.59 overall accuracy on the 5-class severity target — well above chance for a 5-class problem, but with weak performance on the intermediate severity classes (Mild/Moderate F1 ≈ 0.32–0.45), indicating that sociodemographic and personality features alone are informative but insufficient for fine-grained severity prediction.
 
-[item correlation matrix ](corr_matrix.png)
+![item correlation matrix](assets/corr_matrix.png)
 
 Full statistical detail, tables, and figures are in [`docs/report.pdf`](docs/report.pdf).
 
