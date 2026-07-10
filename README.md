@@ -87,4 +87,5 @@ reported in `docs/report.pdf`.
 
 ## Author
 
+Michele Tosi
 Michele Tosi — PhD, Brain and Cognitive Sciences ([CIMeC](https://www.cimec.unitn.it), University of Trento)
