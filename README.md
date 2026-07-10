@@ -1,6 +1,6 @@
 # Validating a Mental Health Measurement Tool at Scale
 
-**What this project shows**: how to take a measurement instrument used on thousands of people, and rigorously test whether it actually measures what it claims to, across different populations — using the same statistical toolkit companies use to validate surveys, product feedback scales, and behavioral scoring models.
+**What this project shows**: how to take a measurement instrument used on thousands of people, and rigorously test whether it actually measures what it claims to, across different populations , using the same statistical toolkit companies use to validate surveys, product feedback scales, and behavioral scoring models.
 
 The dataset here is a psychological questionnaire (the DASS-42, a widely used clinical screening tool for depression, anxiety, and stress). But the underlying problem is a general one: **any organization that measures people at scale, through surveys, NPS scores, engagement indices, risk scores, or behavioral segments, needs to know whether that measurement is reliable, whether it means the same thing for every group of people, and whether it can actually predict the outcome it's meant to predict.** This project answers exactly that, end to end, on real data from ~40,000 respondents.
 
