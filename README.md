@@ -85,7 +85,6 @@ reported in `docs/report.pdf`.
 - Likert-type items were treated as interval-level data, consistent with common practice in DASS-42 validation literature but a simplifying assumption worth flagging
 - The RF classifier's moderate performance suggests room for improvement via feature engineering, hyperparameter tuning, or alternative models, noted explicitly as a direction for future work rather than a limitation glossed over
 
-
+## Author
 
 Michele Tosi
-Michele Tosi — PhD, Brain and Cognitive Sciences ([CIMeC](https://www.cimec.unitn.it), University of Trento)
