@@ -1,4 +1,4 @@
-# Validating a Mental Health Measurement Tool at Scale
+# Validating a Behavioral Measurement Tool at Scale
 
 **What this project shows**: how to take a measurement instrument used on thousands of people, and rigorously test whether it actually measures what it claims to, across different populations , using the same statistical toolkit companies use to validate surveys, product feedback scales, and behavioral scoring models.
 
